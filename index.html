@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Q1</h3>
+    <pre>
+        let ans=[];
+    for(let i=0;i< studentRecords.length;i++){
+        ans.push(studentRecords[i].name.toUpperCase());
+    }
+    console.log(ans);
+    </pre>
+    <h3>Q2</h3>
+    <pre>
+        let ans=[];
+    for(let i=0;i< studentRecords.length;i++){
+        if(studentRecords[i].marks>50){
+            ans.push(studentRecords[i]);
+        }
+    }
+    console.log(ans);
+    </pre>
+    <h3>Q3</h3>
+    <pre>
+        let ans=[];
+    for(let i=0;i< studentRecords.length;i++){
+        if(studentRecords[i].marks>50 && studentRecords[i].id>120){
+            ans.push(studentRecords[i]);
+        }
+    }
+    console.log(ans);
+    </pre>
+    <h3>Q4</h3>
+    <pre>
+        let ans=0;
+    for(let i=0;i< studentRecords.length;i++){
+            ans+=studentRecords[i].marks;
+    }
+    console.log(ans);
+    </pre>
+    <h3>Q5</h3>
+    <pre>
+        let ans=[];
+    for(let i=0;i< studentRecords.length;i++){
+        if(studentRecords[i].marks>50){
+            ans.push(studentRecords[i].name);
+        }
+    }
+    console.log(ans);
+    </pre>
+    <h3>Q6</h3>
+    <pre>
+        let ans=0;
+    for(let i=0;i< studentRecords.length;i++){
+        if(studentRecords[i].id>120){
+            ans+=studentRecords[i].marks;
+          }
+    }
+    console.log(ans);
+    </pre>
+    <h3>Q7</h3>
+    <pre>
+        let ans=0;
+    for(let i=0;i< studentRecords.length;i++){
+        if(studentRecords[i].marks< 50){
+           studentRecords[i].marks+=15;
+        }
+         if(studentRecords[i].marks>50){
+            ans+=studentRecords[i].marks;
+          }
+    }
+    console.log(ans);
+    </pre>
+    <h3>Q8</h3>
+    <pre>
+        let students = [ object1={name: 'John', class: 1, rollno: 1 },
+    object2= {name: 'Aman', class: 2, rollno: 4 },
+    object3= {name: 'Sai', class: 3, rollno: 6 },
+    object4= {name: 'Kiran', class: 4, rollno: 8 },
+    object5= {name: 'Priya', class: 5, rollno: 5 },
+    object6= {name: 'Saipriya', class: 6, rollno: 2 }]     
+    console.log(students);
+    </pre>
+</body>
+</html>
